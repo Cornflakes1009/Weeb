@@ -1,0 +1,779 @@
+[
+  {
+    "anime": "Naruto",
+    "question": "During Kakashi's test, who first offers Naruto some food?",
+    "answer": 0,
+    "optionOne": "Sakura",
+    "optionTwo": "Sasuke"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Samehada?",
+    "answer": 1,
+    "optionOne": "A powerful genjutsu",
+    "optionTwo": "A mystical sword"
+  },
+  {
+    "anime": "Naruto",
+    "question": "On which team was Naruto placed with Sasuke and Sakura?",
+    "answer": 0,
+    "optionOne": "Seven",
+    "optionTwo": "Nine"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Naruto's mother's name?",
+    "answer": 1,
+    "optionOne": "Kurima",
+    "optionTwo": "Kushina"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is the kyuubi's name?",
+    "answer": 0,
+    "optionOne": "Kurama",
+    "optionTwo": "Youkai"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Naruto's last name?",
+    "answer": 1,
+    "optionOne": "Minato",
+    "optionTwo": "Uzamaki"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Naruto's father's name?",
+    "answer": 0,
+    "optionOne": "Minato",
+    "optionTwo": "Asuma"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Asuma's last name?",
+    "answer": 1,
+    "optionOne": "Yuhi",
+    "optionTwo": "Sarutobi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was Naruto's first teacher?",
+    "answer": 0,
+    "optionOne": "Iruka",
+    "optionTwo": "Kakashi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Under which legendary Sannin did Naruto study?",
+    "answer": 1,
+    "optionOne": "Orochimaru",
+    "optionTwo": "Jiraya"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Under which legendary Sannin did Sakura study?",
+    "answer": 0,
+    "optionOne": "Tsunade",
+    "optionTwo": "Jiraya"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Under which legendary Sannin did Sasuke study?",
+    "answer": 1,
+    "optionOne": "Tsunade",
+    "optionTwo": "Orochimaru"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who slayed the Uchiha clan?",
+    "answer": 0,
+    "optionOne": "Itachi",
+    "optionTwo": "Sasuke"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which ninja can't do ninjutsu?",
+    "answer": 1,
+    "optionOne": "Might Guy",
+    "optionTwo": "Rock Lee"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Whom does Naruto marry?",
+    "answer": 0,
+    "optionOne": "Hinata",
+    "optionTwo": "Sakura"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Team Asuma's favorite food?",
+    "answer": 1,
+    "optionOne": "Ramen",
+    "optionTwo": "BBQ"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Naruto's favorite food?",
+    "answer": 0,
+    "optionOne": "Ramen",
+    "optionTwo": "BBQ"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who gave their life so that Gara could live?",
+    "answer": 1,
+    "optionOne": "Sasori",
+    "optionTwo": "Chiyo"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which piece of jewelry does each of the Akatsuki wear?",
+    "answer": 0,
+    "optionOne": "Rings",
+    "optionTwo": "Necklaces"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What type of creature does Jiraya regularly summon?",
+    "answer": 1,
+    "optionOne": "Lizard",
+    "optionTwo": "Frog"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What type of creature does Orochimaru regularly summon?",
+    "answer": 0,
+    "optionOne": "Snake",
+    "optionTwo": "Frog"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What type of creature does Tsunade regularly summon?",
+    "answer": 1,
+    "optionOne": "Snail",
+    "optionTwo": "Slug"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who created the Akatsuki?",
+    "answer": 0,
+    "optionOne": "Yahiko",
+    "optionTwo": "Orochimaru"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who performs the technique Evening Elephant?",
+    "answer": 1,
+    "optionOne": "Ino",
+    "optionTwo": "Might Guy"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What was the name of Madara's jutsu?",
+    "answer": 0,
+    "optionOne": "Eye of the Moon",
+    "optionTwo": "Endless Red Moon"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the last person that Naruto fought in Shippuden?",
+    "answer": 1,
+    "optionOne": "Madara",
+    "optionTwo": "Sasuke"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who sealed the nine-tailed fox inside of Naruto?",
+    "answer": 0,
+    "optionOne": "Minato",
+    "optionTwo": "Hiruzen Sarutobi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who tricked Naruto into stealing a sacred scroll?",
+    "answer": 1,
+    "optionOne": "Zabuza",
+    "optionTwo": "Mizuki"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which character can only use taijutsu?",
+    "answer": 0,
+    "optionOne": "Rock Lee",
+    "optionTwo": "Might Guy"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of the legendary sannin becomes a hokage?",
+    "answer": 1,
+    "optionOne": "Jiraya",
+    "optionTwo": "Tsunade"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What does Chidori mean?",
+    "answer": 0,
+    "optionOne": "1,000 birds",
+    "optionTwo": "10,000 birds"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is a kunoichi?",
+    "answer": 1,
+    "optionOne": "Kakashi",
+    "optionTwo": "Sakura"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Before Naruto defeated him, who was the leader of the Akatsuki?",
+    "answer": 0,
+    "optionOne": "Pain",
+    "optionTwo": "Itachi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the first Hokage?",
+    "answer": 1,
+    "optionOne": "Tobirama",
+    "optionTwo": "Hashirama"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the second Hokage?",
+    "answer": 0,
+    "optionOne": "Tobirama",
+    "optionTwo": "Hashirama"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the third Hokage?",
+    "answer": 1,
+    "optionOne": "Minato",
+    "optionTwo": "Sarutobi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the fourth Hokage?",
+    "answer": 0,
+    "optionOne": "Minato",
+    "optionTwo": "Sarutobi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the fifth Hokage?",
+    "answer": 1,
+    "optionOne": "Minato",
+    "optionTwo": "Tsunade"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the sixth Hokage?",
+    "answer": 0,
+    "optionOne": "Kakashi",
+    "optionTwo": "Tsunade"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the seventh Hokage?",
+    "answer": 1,
+    "optionOne": "Kakashi",
+    "optionTwo": "Uzamaki"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Whom does Naruto call Bushy Brow?",
+    "answer": 0,
+    "optionOne": "Rock Lee",
+    "optionTwo": "Shikamaru"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What rank of criminal is every member of the Akatsuki?",
+    "answer": 1,
+    "optionOne": "A - Rank",
+    "optionTwo": "S - Rank"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What was the name of the beast inside Gaara?",
+    "answer": 0,
+    "optionOne": "Shukaku",
+    "optionTwo": "Kurama"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the Jonin over the Legendary Sannin?",
+    "answer": 1,
+    "optionOne": "Hashirama",
+    "optionTwo": "Sarutobi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "How many hearts does Kakuzu have?",
+    "answer": 0,
+    "optionOne": "Five",
+    "optionTwo": "Seven"
+  },
+  {
+    "anime": "Naruto",
+    "question": "How many gates can Guy open?",
+    "answer": 1,
+    "optionOne": "Seven",
+    "optionTwo": "Eight"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was Kurama's second host?",
+    "answer": 0,
+    "optionOne": "Kushina",
+    "optionTwo": "Naruto"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who gave Kakashi his sharingan?",
+    "answer": 1,
+    "optionOne": "Danzo",
+    "optionTwo": "Obito"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What type of eyes do Neji and Hinata possess?",
+    "answer": 0,
+    "optionOne": "Byakugan",
+    "optionTwo": "Rinnegan"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Before he became a ninja, what did Naruto wear on his head?",
+    "answer": 1,
+    "optionOne": "Sunglasses",
+    "optionTwo": "Goggles"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is Hinata's father?",
+    "answer": 0,
+    "optionOne": "Hiashi",
+    "optionTwo": "Hanabi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is Hinata's younger sibling?",
+    "answer": 1,
+    "optionOne": "Neji",
+    "optionTwo": "Hanabi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What was Kakashi's father's name?",
+    "answer": 0,
+    "optionOne": "Sakumo",
+    "optionTwo": "Minato"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Whose father was known as The White Fang?",
+    "answer": 1,
+    "optionOne": "Naruto's",
+    "optionTwo": "Kakashi's"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Whose father was known as The Yellow Flash?",
+    "answer": 0,
+    "optionOne": "Naruto's",
+    "optionTwo": "Kakashi's"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Whom does Shikamaru marry?",
+    "answer": 1,
+    "optionOne": "Tenten",
+    "optionTwo": "Tamari"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of Naruto's classmates was an expert at summoning weapons?",
+    "answer": 0,
+    "optionOne": "Tenten",
+    "optionTwo": "Shino"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of Naruto's classmates was an expert in controlling insects?",
+    "answer": 1,
+    "optionOne": "Shikamaru",
+    "optionTwo": "Shino"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of Naruto's classmates was an expert in controlling shadows?",
+    "answer": 0,
+    "optionOne": "Shikamaru",
+    "optionTwo": "Shino"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Under which jonin was Shikamaru originally placed?",
+    "answer": 1,
+    "optionOne": "Kurenai",
+    "optionTwo": "Asuma"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Under which jonin was Hinata originally placed?",
+    "answer": 0,
+    "optionOne": "Kurenai",
+    "optionTwo": "Asuma"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is the name of Kiba's dog?",
+    "answer": 1,
+    "optionOne": "Shikamaru",
+    "optionTwo": "Akamaru"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is Kiba's older sister?",
+    "answer": 0,
+    "optionOne": "Hana",
+    "optionTwo": "Tsube"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the leader of Team 8?",
+    "answer": 1,
+    "optionOne": "Asuma",
+    "optionTwo": "Kurenai"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Gaara's brother's name?",
+    "answer": 0,
+    "optionOne": "Kankuro",
+    "optionTwo": "Rasa"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Gaara's sister's name?",
+    "answer": 1,
+    "optionOne": "Karura",
+    "optionTwo": "Temari"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Gaara's father's name?",
+    "answer": 0,
+    "optionOne": "Rasa",
+    "optionTwo": "Kankuro"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is Gaara's mother's name?",
+    "answer": 1,
+    "optionOne": "Temari",
+    "optionTwo": "Karura"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the fourth Kazekage?",
+    "answer": 0,
+    "optionOne": "Rasa",
+    "optionTwo": "Gaara"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the fifth Kazekage?",
+    "answer": 1,
+    "optionOne": "Rasa",
+    "optionTwo": "Gaara"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the fourth Raikage?",
+    "answer": 0,
+    "optionOne": "A",
+    "optionTwo": "Killer B"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the name of the tailed beast inside of Killer B?",
+    "answer": 1,
+    "optionOne": "Son Goku",
+    "optionTwo": "Gyūki"
+  },
+  {
+    "anime": "Naruto",
+    "question": "How many tails does Shukaku have?",
+    "answer": 0,
+    "optionOne": "One",
+    "optionTwo": "Three"
+  },
+  {
+    "anime": "Naruto",
+    "question": "How many tails did Killer B's tailed beast have?",
+    "answer": 1,
+    "optionOne": "Seven",
+    "optionTwo": "Eight"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the first host of Kurama?",
+    "answer": 0,
+    "optionOne": "Mito Uzumaki",
+    "optionTwo": "Kushina Uzumaki"
+  },
+  {
+    "anime": "Naruto",
+    "question": "How many tails does Kurama have?",
+    "answer": 1,
+    "optionOne": "Seven",
+    "optionTwo": "Nine"
+  },
+  {
+    "anime": "Naruto",
+    "question": "During the Kage summit, who was the Tsuchikage?",
+    "answer": 0,
+    "optionOne": "Ōnoki",
+    "optionTwo": "Kurotsuchi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who became the fourth Tsuchikage?",
+    "answer": 1,
+    "optionOne": "Ōnoki",
+    "optionTwo": "Kurotsuchi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the leader of the Earth Village?",
+    "answer": 0,
+    "optionOne": "Tsuchikage",
+    "optionTwo": "Raikage"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the leader of the Sand Village?",
+    "answer": 1,
+    "optionOne": "Raikage",
+    "optionTwo": "Kazekage"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the leader of the Village Hidden in the Mist?",
+    "answer": 0,
+    "optionOne": "Mizukage",
+    "optionTwo": "Raikage"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is the leader of the Village Hidden by Clouds?",
+    "answer": 1,
+    "optionOne": "Mizukage",
+    "optionTwo": "Raikage"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of the Akatsuki used a paper ninjutsu?",
+    "answer": 0,
+    "optionOne": "Konan",
+    "optionTwo": "Sasori"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of the Akatsuki used a puppet ninjutsu?",
+    "answer": 1,
+    "optionOne": "Konan",
+    "optionTwo": "Sasori"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of the following was a member of the Seven Ninja Swordsmen of the Mist?",
+    "answer": 0,
+    "optionOne": "Jūzō",
+    "optionTwo": "Hidan"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which of the following Akatsuki wielded Samehada?",
+    "answer": 1,
+    "optionOne": "Jūzō",
+    "optionTwo": "Kisame"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who defeated Kisame?",
+    "answer": 0,
+    "optionOne": "Guy",
+    "optionTwo": "Kakashi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who defeated Zabuza?",
+    "answer": 1,
+    "optionOne": "Guy",
+    "optionTwo": "Kakashi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who killed Haku?",
+    "answer": 0,
+    "optionOne": "Kakashi",
+    "optionTwo": "Naruto"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What blade was wielded by Zabuza?",
+    "answer": 1,
+    "optionOne": "Samehada",
+    "optionTwo": "Executioner's Blade"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What was the original name of the team created by Sakuke?",
+    "answer": 0,
+    "optionOne": "Hebi",
+    "optionTwo": "Taka"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What did Sasuke rename his team to after finding out the truth from Tobi?",
+    "answer": 1,
+    "optionOne": "Hebi",
+    "optionTwo": "Taka"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the only female member of Taka?",
+    "answer": 0,
+    "optionOne": "Karin",
+    "optionTwo": "Rin"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the blademaster in Taka?",
+    "answer": 1,
+    "optionOne": "Zabuza",
+    "optionTwo": "Suigetsu"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the giant toad that Naruto summoned to fight Shukaku?",
+    "answer": 0,
+    "optionOne": "Gamabunta",
+    "optionTwo": "Gamakichi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What is the name of Lady Tsunade's slug?",
+    "answer": 1,
+    "optionOne": "Saiken",
+    "optionTwo": "Katsuyu"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who is Orochimaru's assistant?",
+    "answer": 0,
+    "optionOne": "Kabuto Yakushi",
+    "optionTwo": "Anko Mitarashi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the founder and leader of Root?",
+    "answer": 1,
+    "optionOne": "Torifu Akimichi",
+    "optionTwo": "Danzō Shimura"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who replaced Sasuke on Team 7?",
+    "answer": 0,
+    "optionOne": "Sai",
+    "optionTwo": "Yamato"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who replaced Kakashi as leader of Team 7?",
+    "answer": 1,
+    "optionOne": "Jiraya",
+    "optionTwo": "Yamato"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was the real face behind Tobi?",
+    "answer": 0,
+    "optionOne": "Obito",
+    "optionTwo": "Madara"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which member of the Akatsuki normally used explosive clay?",
+    "answer": 1,
+    "optionOne": "Hidan",
+    "optionTwo": "Deidara"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which eye did Obito give to Kakashi?",
+    "answer": 0,
+    "optionOne": "Left",
+    "optionTwo": "Right"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which member of the Akatsuki was practically immortal to all wounds?",
+    "answer": 1,
+    "optionOne": "Kakuzu",
+    "optionTwo": "Hidan"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Which eye did Kakashi lose?",
+    "answer": 0,
+    "optionOne": "Left",
+    "optionTwo": "Right"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who killed Asuma?",
+    "answer": 1,
+    "optionOne": "Kakuzu",
+    "optionTwo": "Hidan"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who was Hidan's Akatsuki partner?",
+    "answer": 0,
+    "optionOne": "Kakuzu",
+    "optionTwo": "Kisame"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who killed Kakuzu?",
+    "answer": 1,
+    "optionOne": "Shikamaru",
+    "optionTwo": "Kakashi"
+  },
+  {
+    "anime": "Naruto",
+    "question": "What type of eyes did Nagato possess?",
+    "answer": 0,
+    "optionOne": "Rinnegan",
+    "optionTwo": "Sharingan"
+  },
+  {
+    "anime": "Naruto",
+    "question": "In order to kill Obito, how many explosive tags did Konan prepare?",
+    "answer": 1,
+    "optionOne": "500 Billion",
+    "optionTwo": "600 Billion"
+  },
+  {
+    "anime": "Naruto",
+    "question": "Who killed Konan?",
+    "answer": 0,
+    "optionOne": "Obito",
+    "optionTwo": "Madara"
+  }
+]

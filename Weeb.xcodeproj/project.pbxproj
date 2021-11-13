@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EEE9D12C823425E665CEDB /* Pods_Weeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE6BA3E708269B6A209F6EC /* Pods_Weeb.framework */; };
+		D9366C8D26E9703100D83E39 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9366C8C26E9703100D83E39 /* RootViewController.swift */; };
+		D9B030B0272F480F006231EF /* ConfigureVaryingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B030AF272F480F006231EF /* ConfigureVaryingViews.swift */; };
+		D9B030F4273B7BB7006231EF /* RobotoMono-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F3273B7BB6006231EF /* RobotoMono-VariableFont_wght.ttf */; };
+		D9B03102273F9BB7006231EF /* Death Note.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F5273F9BB6006231EF /* Death Note.json */; };
+		D9B03103273F9BB7006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F6273F9BB6006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json */; };
+		D9B03104273F9BB7006231EF /* Code Geass.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F7273F9BB6006231EF /* Code Geass.json */; };
+		D9B03105273F9BB7006231EF /* One Punch Man.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F8273F9BB7006231EF /* One Punch Man.json */; };
+		D9B03106273F9BB7006231EF /* Maid Sama!.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F9273F9BB7006231EF /* Maid Sama!.json */; };
+		D9B03107273F9BB7006231EF /* Naruto.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FA273F9BB7006231EF /* Naruto.json */; };
+		D9B03108273F9BB7006231EF /* Akame ga Kill!.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FB273F9BB7006231EF /* Akame ga Kill!.json */; };
+		D9B03109273F9BB7006231EF /* Vampire Knight.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FC273F9BB7006231EF /* Vampire Knight.json */; };
+		D9B0310A273F9BB7006231EF /* Toradora!.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FD273F9BB7006231EF /* Toradora!.json */; };
+		D9B0310B273F9BB7006231EF /* Erased.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FE273F9BB7006231EF /* Erased.json */; };
+		D9B0310C273F9BB7006231EF /* Beastars.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B030FF273F9BB7006231EF /* Beastars.json */; };
+		D9B0310D273F9BB7006231EF /* The Way of the Househusband.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B03100273F9BB7006231EF /* The Way of the Househusband.json */; };
+		D9B0310E273F9BB7006231EF /* Your Name.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B03101273F9BB7006231EF /* Your Name.json */; };
+		D9B03110273F9C10006231EF /* Bleach.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B0310F273F9C10006231EF /* Bleach.json */; };
+		D9B16C27266CC71A00E81748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C26266CC71A00E81748 /* AppDelegate.swift */; };
+		D9B16C29266CC71A00E81748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C28266CC71A00E81748 /* SceneDelegate.swift */; };
+		D9B16C30266CC71D00E81748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B16C2F266CC71D00E81748 /* Assets.xcassets */; };
+		D9B16C33266CC71D00E81748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B16C31266CC71D00E81748 /* LaunchScreen.storyboard */; };
+		D9B16C3D266CC7AF00E81748 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C3C266CC7AF00E81748 /* Extensions.swift */; };
+		D9B16C41266CC7D400E81748 /* AnimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C40266CC7D400E81748 /* AnimeListViewController.swift */; };
+		D9B16C48266DEC1400E81748 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C47266DEC1400E81748 /* Globals.swift */; };
+		D9B16C4B266DEFDE00E81748 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C4A266DEFDE00E81748 /* CategoryCell.swift */; };
+		D9B16C4E266ECCF600E81748 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C4D266ECCF600E81748 /* AppButton.swift */; };
+		D9B16C51266F3FD000E81748 /* PocketMonk-15ze.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9B16C50266F3FD000E81748 /* PocketMonk-15ze.ttf */; };
+		D9B16C542672B33200E81748 /* QuestionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C532672B33200E81748 /* QuestionSelectionViewController.swift */; };
+		D9B16C572672B33D00E81748 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C562672B33D00E81748 /* QuestionViewController.swift */; };
+		D9B16C5A2672B34700E81748 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C592672B34700E81748 /* ResultsViewController.swift */; };
+		D9B16C5D2672B35000E81748 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C5C2672B35000E81748 /* AboutViewController.swift */; };
+		D9B16C602672B35A00E81748 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C5F2672B35A00E81748 /* ScoresViewController.swift */; };
+		D9B16C632672B36600E81748 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C622672B36600E81748 /* SupportViewController.swift */; };
+		D9B16C662672B9B600E81748 /* ConvertQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C652672B9B600E81748 /* ConvertQuestions.swift */; };
+		D9B16C69267596BD00E81748 /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C68267596BD00E81748 /* QuestionButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AB2CC62499EB1F5400AC2B6 /* Pods-Weeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weeb.debug.xcconfig"; path = "Target Support Files/Pods-Weeb/Pods-Weeb.debug.xcconfig"; sourceTree = "<group>"; };
+		D9366C8C26E9703100D83E39 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D9B030AF272F480F006231EF /* ConfigureVaryingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureVaryingViews.swift; sourceTree = "<group>"; };
+		D9B030F3273B7BB6006231EF /* RobotoMono-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D9B030F5273F9BB6006231EF /* Death Note.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Death Note.json"; sourceTree = "<group>"; };
+		D9B030F6273F9BB6006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Rascal Does Not Dream of Bunny Girl Senpai.json"; sourceTree = "<group>"; };
+		D9B030F7273F9BB6006231EF /* Code Geass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Code Geass.json"; sourceTree = "<group>"; };
+		D9B030F8273F9BB7006231EF /* One Punch Man.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "One Punch Man.json"; sourceTree = "<group>"; };
+		D9B030F9273F9BB7006231EF /* Maid Sama!.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Maid Sama!.json"; sourceTree = "<group>"; };
+		D9B030FA273F9BB7006231EF /* Naruto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Naruto.json; sourceTree = "<group>"; };
+		D9B030FB273F9BB7006231EF /* Akame ga Kill!.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Akame ga Kill!.json"; sourceTree = "<group>"; };
+		D9B030FC273F9BB7006231EF /* Vampire Knight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Vampire Knight.json"; sourceTree = "<group>"; };
+		D9B030FD273F9BB7006231EF /* Toradora!.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Toradora!.json"; sourceTree = "<group>"; };
+		D9B030FE273F9BB7006231EF /* Erased.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Erased.json; sourceTree = "<group>"; };
+		D9B030FF273F9BB7006231EF /* Beastars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Beastars.json; sourceTree = "<group>"; };
+		D9B03100273F9BB7006231EF /* The Way of the Househusband.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "The Way of the Househusband.json"; sourceTree = "<group>"; };
+		D9B03101273F9BB7006231EF /* Your Name.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Your Name.json"; sourceTree = "<group>"; };
+		D9B0310F273F9C10006231EF /* Bleach.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Bleach.json; sourceTree = "<group>"; };
+		D9B16C23266CC71A00E81748 /* Weeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B16C26266CC71A00E81748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9B16C28266CC71A00E81748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9B16C2F266CC71D00E81748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9B16C32266CC71D00E81748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9B16C34266CC71D00E81748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B16C3C266CC7AF00E81748 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D9B16C40266CC7D400E81748 /* AnimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewController.swift; sourceTree = "<group>"; };
+		D9B16C47266DEC1400E81748 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		D9B16C4A266DEFDE00E81748 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D9B16C4D266ECCF600E81748 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		D9B16C50266F3FD000E81748 /* PocketMonk-15ze.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PocketMonk-15ze.ttf"; sourceTree = "<group>"; };
+		D9B16C532672B33200E81748 /* QuestionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSelectionViewController.swift; sourceTree = "<group>"; };
+		D9B16C562672B33D00E81748 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		D9B16C592672B34700E81748 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		D9B16C5C2672B35000E81748 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		D9B16C5F2672B35A00E81748 /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		D9B16C622672B36600E81748 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		D9B16C652672B9B600E81748 /* ConvertQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertQuestions.swift; sourceTree = "<group>"; };
+		D9B16C68267596BD00E81748 /* QuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
+		DAE6BA3E708269B6A209F6EC /* Pods_Weeb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AEE5B98907F19E76069DA0 /* Pods-Weeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weeb.release.xcconfig"; path = "Target Support Files/Pods-Weeb/Pods-Weeb.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B16C20266CC71A00E81748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EEE9D12C823425E665CEDB /* Pods_Weeb.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158D1349A4DE50C3CFFFB823 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2CC62499EB1F5400AC2B6 /* Pods-Weeb.debug.xcconfig */,
+				F0AEE5B98907F19E76069DA0 /* Pods-Weeb.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9B16C1A266CC71A00E81748 = {
+			isa = PBXGroup;
+			children = (
+				D9B16C25266CC71A00E81748 /* Weeb */,
+				D9B16C24266CC71A00E81748 /* Products */,
+				158D1349A4DE50C3CFFFB823 /* Pods */,
+				DEF43C34AAD536027D02AA7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B16C24266CC71A00E81748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C23266CC71A00E81748 /* Weeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B16C25266CC71A00E81748 /* Weeb */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C34266CC71D00E81748 /* Info.plist */,
+				D9B16C702675C88800E81748 /* Views */,
+				D9B16C6F2675C87C00E81748 /* Cells */,
+				D9B16C712675C89D00E81748 /* Models */,
+				D9B16C6B2675C7E200E81748 /* JSON */,
+				D9B16C45266CC82300E81748 /* Controllers */,
+				D9B16C722675C8B800E81748 /* Supporting Files */,
+			);
+			path = Weeb;
+			sourceTree = "<group>";
+		};
+		D9B16C45266CC82300E81748 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C5C2672B35000E81748 /* AboutViewController.swift */,
+				D9B16C40266CC7D400E81748 /* AnimeListViewController.swift */,
+				D9B16C532672B33200E81748 /* QuestionSelectionViewController.swift */,
+				D9B16C562672B33D00E81748 /* QuestionViewController.swift */,
+				D9B16C592672B34700E81748 /* ResultsViewController.swift */,
+				D9366C8C26E9703100D83E39 /* RootViewController.swift */,
+				D9B16C5F2672B35A00E81748 /* ScoresViewController.swift */,
+				D9B16C622672B36600E81748 /* SupportViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9B16C6B2675C7E200E81748 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D9B030FB273F9BB7006231EF /* Akame ga Kill!.json */,
+				D9B030FF273F9BB7006231EF /* Beastars.json */,
+				D9B0310F273F9C10006231EF /* Bleach.json */,
+				D9B030F7273F9BB6006231EF /* Code Geass.json */,
+				D9B030F5273F9BB6006231EF /* Death Note.json */,
+				D9B030FE273F9BB7006231EF /* Erased.json */,
+				D9B030F9273F9BB7006231EF /* Maid Sama!.json */,
+				D9B030FA273F9BB7006231EF /* Naruto.json */,
+				D9B030F8273F9BB7006231EF /* One Punch Man.json */,
+				D9B030F6273F9BB6006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json */,
+				D9B03100273F9BB7006231EF /* The Way of the Househusband.json */,
+				D9B030FD273F9BB7006231EF /* Toradora!.json */,
+				D9B030FC273F9BB7006231EF /* Vampire Knight.json */,
+				D9B03101273F9BB7006231EF /* Your Name.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D9B16C6F2675C87C00E81748 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C4A266DEFDE00E81748 /* CategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D9B16C702675C88800E81748 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C68267596BD00E81748 /* QuestionButton.swift */,
+				D9B16C4D266ECCF600E81748 /* AppButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B16C712675C89D00E81748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C652672B9B600E81748 /* ConvertQuestions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9B16C722675C8B800E81748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16C26266CC71A00E81748 /* AppDelegate.swift */,
+				D9B16C28266CC71A00E81748 /* SceneDelegate.swift */,
+				D9B16C2F266CC71D00E81748 /* Assets.xcassets */,
+				D9B16C31266CC71D00E81748 /* LaunchScreen.storyboard */,
+				D9B16C3C266CC7AF00E81748 /* Extensions.swift */,
+				D9B16C47266DEC1400E81748 /* Globals.swift */,
+				D9B030F3273B7BB6006231EF /* RobotoMono-VariableFont_wght.ttf */,
+				D9B16C50266F3FD000E81748 /* PocketMonk-15ze.ttf */,
+				D9B030AF272F480F006231EF /* ConfigureVaryingViews.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF43C34AAD536027D02AA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE6BA3E708269B6A209F6EC /* Pods_Weeb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B16C22266CC71A00E81748 /* Weeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B16C37266CC71D00E81748 /* Build configuration list for PBXNativeTarget "Weeb" */;
+			buildPhases = (
+				461F7E47AA5FFAF30C2A44CB /* [CP] Check Pods Manifest.lock */,
+				D9B16C1F266CC71A00E81748 /* Sources */,
+				D9B16C20266CC71A00E81748 /* Frameworks */,
+				D9B16C21266CC71A00E81748 /* Resources */,
+				1B4A90F87F5ABC42B7E2F80A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weeb;
+			productName = Weeb;
+			productReference = D9B16C23266CC71A00E81748 /* Weeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B16C1B266CC71A00E81748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D9B16C22266CC71A00E81748 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D9B16C1E266CC71A00E81748 /* Build configuration list for PBXProject "Weeb" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B16C1A266CC71A00E81748;
+			productRefGroup = D9B16C24266CC71A00E81748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B16C22266CC71A00E81748 /* Weeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B16C21266CC71A00E81748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B0310A273F9BB7006231EF /* Toradora!.json in Resources */,
+				D9B16C33266CC71D00E81748 /* LaunchScreen.storyboard in Resources */,
+				D9B0310D273F9BB7006231EF /* The Way of the Househusband.json in Resources */,
+				D9B03106273F9BB7006231EF /* Maid Sama!.json in Resources */,
+				D9B0310C273F9BB7006231EF /* Beastars.json in Resources */,
+				D9B0310B273F9BB7006231EF /* Erased.json in Resources */,
+				D9B03108273F9BB7006231EF /* Akame ga Kill!.json in Resources */,
+				D9B0310E273F9BB7006231EF /* Your Name.json in Resources */,
+				D9B03107273F9BB7006231EF /* Naruto.json in Resources */,
+				D9B03102273F9BB7006231EF /* Death Note.json in Resources */,
+				D9B03104273F9BB7006231EF /* Code Geass.json in Resources */,
+				D9B16C51266F3FD000E81748 /* PocketMonk-15ze.ttf in Resources */,
+				D9B03110273F9C10006231EF /* Bleach.json in Resources */,
+				D9B030F4273B7BB7006231EF /* RobotoMono-VariableFont_wght.ttf in Resources */,
+				D9B03109273F9BB7006231EF /* Vampire Knight.json in Resources */,
+				D9B16C30266CC71D00E81748 /* Assets.xcassets in Resources */,
+				D9B03105273F9BB7006231EF /* One Punch Man.json in Resources */,
+				D9B03103273F9BB7006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4A90F87F5ABC42B7E2F80A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weeb/Pods-Weeb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weeb/Pods-Weeb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weeb/Pods-Weeb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461F7E47AA5FFAF30C2A44CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weeb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B16C1F266CC71A00E81748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B16C69267596BD00E81748 /* QuestionButton.swift in Sources */,
+				D9B030B0272F480F006231EF /* ConfigureVaryingViews.swift in Sources */,
+				D9B16C41266CC7D400E81748 /* AnimeListViewController.swift in Sources */,
+				D9B16C27266CC71A00E81748 /* AppDelegate.swift in Sources */,
+				D9B16C632672B36600E81748 /* SupportViewController.swift in Sources */,
+				D9B16C5D2672B35000E81748 /* AboutViewController.swift in Sources */,
+				D9B16C29266CC71A00E81748 /* SceneDelegate.swift in Sources */,
+				D9366C8D26E9703100D83E39 /* RootViewController.swift in Sources */,
+				D9B16C5A2672B34700E81748 /* ResultsViewController.swift in Sources */,
+				D9B16C48266DEC1400E81748 /* Globals.swift in Sources */,
+				D9B16C662672B9B600E81748 /* ConvertQuestions.swift in Sources */,
+				D9B16C3D266CC7AF00E81748 /* Extensions.swift in Sources */,
+				D9B16C602672B35A00E81748 /* ScoresViewController.swift in Sources */,
+				D9B16C542672B33200E81748 /* QuestionSelectionViewController.swift in Sources */,
+				D9B16C4E266ECCF600E81748 /* AppButton.swift in Sources */,
+				D9B16C4B266DEFDE00E81748 /* CategoryCell.swift in Sources */,
+				D9B16C572672B33D00E81748 /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B16C31266CC71D00E81748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B16C32266CC71D00E81748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B16C35266CC71D00E81748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9B16C36266CC71D00E81748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B16C38266CC71D00E81748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB2CC62499EB1F5400AC2B6 /* Pods-Weeb.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464PVQ34ND;
+				INFOPLIST_FILE = Weeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D9B16C39266CC71D00E81748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AEE5B98907F19E76069DA0 /* Pods-Weeb.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464PVQ34ND;
+				INFOPLIST_FILE = Weeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B16C1E266CC71A00E81748 /* Build configuration list for PBXProject "Weeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B16C35266CC71D00E81748 /* Debug */,
+				D9B16C36266CC71D00E81748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B16C37266CC71D00E81748 /* Build configuration list for PBXNativeTarget "Weeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B16C38266CC71D00E81748 /* Debug */,
+				D9B16C39266CC71D00E81748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B16C1B266CC71A00E81748 /* Project object */;
+}

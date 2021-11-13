@@ -1,0 +1,422 @@
+[
+  {
+    "anime": "Bleach",
+    "question": "Who is Ichigo's mother?",
+    "answer": 0,
+    "optionOne": "Masaki",
+    "optionTwo": "Himari"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is Ichigo's father?",
+    "answer": 1,
+    "optionOne": "Haruki",
+    "optionTwo": "Isshin"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who killed Ichigo's mother?",
+    "answer": 0,
+    "optionOne": "Grand Fisher",
+    "optionTwo": "Fishbone D"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which of the following was one of Kenpachi's lieutenants?",
+    "answer": 1,
+    "optionOne": "Yuyu Yayahara",
+    "optionTwo": "Yachiru Kusajishi"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 1st Division?",
+    "answer": 0,
+    "optionOne": "Yamamoto",
+    "optionTwo": "Byakuya Kuchiki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 2nd Division?",
+    "answer": 1,
+    "optionOne": "Byakuya Kuchiki",
+    "optionTwo": "Soifon"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 3rd Division?",
+    "answer": 0,
+    "optionOne": "Gin Ichimaru",
+    "optionTwo": "Sōsuke Aizen"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 4th Division?",
+    "answer": 1,
+    "optionOne": "Shinji Hirako",
+    "optionTwo": "Retsu Unohana"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 5th Division?",
+    "answer": 0,
+    "optionOne": "Sōsuke Aizen",
+    "optionTwo": "Isane Kotetsu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 6th Division?",
+    "answer": 1,
+    "optionOne": "Kenpachi Zaraki",
+    "optionTwo": "Byakuya Kuchiki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 7th Division?",
+    "answer": 0,
+    "optionOne": "Sajin Komamura",
+    "optionTwo": "Byakuya Kuchiki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 8th Division?",
+    "answer": 1,
+    "optionOne": "Tetsuzaemon Iba",
+    "optionTwo": "Shunsui Kyōraku"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 9th Division?",
+    "answer": 0,
+    "optionOne": "Kaname Tōsen",
+    "optionTwo": "Lisa Yadōmaru"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 10th Division?",
+    "answer": 1,
+    "optionOne": "Lisa Yadōmaru",
+    "optionTwo": "Tōshirō Hitsugaya"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 11th Division?",
+    "answer": 0,
+    "optionOne": "Kenpachi Zaraki",
+    "optionTwo": "Byakuya Kuchiki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 12th Division?",
+    "answer": 1,
+    "optionOne": "Kenpachi Zaraki",
+    "optionTwo": "Mayuri Kurotsuchi"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who was the captain of the 13th Division?",
+    "answer": 1,
+    "optionOne": "Sōsuke Aizen",
+    "optionTwo": "Jūshirō Ukitake"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who is Byakuya's lieutenant?",
+    "answer": 0,
+    "optionOne": "Renji Abarai",
+    "optionTwo": "Rukia Kuchiki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who frequently inhabits a lion plushie?",
+    "answer": 1,
+    "optionOne": "Noba",
+    "optionTwo": "Kon"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is frequently referred to as Mr. Hat-and-Clogs?",
+    "answer": 0,
+    "optionOne": "Urahara",
+    "optionTwo": "Shunsui Kyoraku"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which captain is blind?",
+    "answer": 1,
+    "optionOne": "Sajin Komamura",
+    "optionTwo": "Kaname Tosen"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of Renji's zanpakuto?",
+    "answer": 0,
+    "optionOne": "Zabimaru",
+    "optionTwo": "Zangetsu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is the Primera Espada in Aizen's army?",
+    "answer": 1,
+    "optionOne": "Ulqiorra Cifer",
+    "optionTwo": "Coyote Starrk"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which captain is often seen wearing a pink kimono?",
+    "answer": 0,
+    "optionOne": "Shunsui Kyoraku",
+    "optionTwo": "Jūshirō Ukitake"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of Ichigo's zanpakuto?",
+    "answer": 1,
+    "optionOne": "Zabimaru",
+    "optionTwo": "Zangetsu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is the other part of Coyote Starrk's soul?",
+    "answer": 0,
+    "optionOne": "Lilynette",
+    "optionTwo": "Loly"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What high school does Ichigo attend?",
+    "answer": 1,
+    "optionOne": "Seika High School",
+    "optionTwo": "Karakura High School"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is Ichigo's Quincy classmate and friend?",
+    "answer": 0,
+    "optionOne": "Uryū",
+    "optionTwo": "Chad"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of the town where Ichigo lives?",
+    "answer": 1,
+    "optionOne": "Kakogawa",
+    "optionTwo": "Karakura"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, how old was Ichigo?",
+    "answer": 0,
+    "optionOne": "Fifteen",
+    "optionTwo": "Seventeen"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What do soul reapers call good souls?",
+    "answer": 1,
+    "optionOne": "Hollows",
+    "optionTwo": "Wholes"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What color are Ichigo's eyes?",
+    "answer": 0,
+    "optionOne": "Brown",
+    "optionTwo": "Green"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is an artificial body which allows Shinigami to remain in the Human World and interact with Humans?",
+    "answer": 1,
+    "optionOne": "Gotei",
+    "optionTwo": "Gigai"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What was the name of Orihime's brother?",
+    "answer": 0,
+    "optionOne": "Sora",
+    "optionTwo": "Yuzu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who gave Orihime her hair pin?",
+    "answer": 1,
+    "optionOne": "Ichigo",
+    "optionTwo": "Sora"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which of Ichigo's sisters can see ghosts at the start of the series?",
+    "answer": 0,
+    "optionOne": "Karin",
+    "optionTwo": "Yuzu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of the young girl who works for Urahara?",
+    "answer": 1,
+    "optionOne": "Jinta Hanakari",
+    "optionTwo": "Ururu Tsumugiya"
+  },
+  {
+    "anime": "Bleach",
+    "question": "How many Shielding Princess Flowers does Orihime possess?",
+    "answer": 0,
+    "optionOne": "Six",
+    "optionTwo": "Seven"
+  },
+  {
+    "anime": "Bleach",
+    "question": "On what day did Ichigo's mother die?",
+    "answer": 1,
+    "optionOne": "June 16th",
+    "optionTwo": "June 17th"
+  },
+  {
+    "anime": "Bleach",
+    "question": "How old was Ichigo when his mother died?",
+    "answer": 0,
+    "optionOne": "Nine",
+    "optionTwo": "Ten"
+  },
+  {
+    "anime": "Bleach",
+    "question": "How many days did Ichigo have to train with Urahara before going to the Soul Society to rescue Rukia?",
+    "answer": 1,
+    "optionOne": "Seven",
+    "optionTwo": "Ten"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is the gate keeper of Hakutōmon?",
+    "answer": 0,
+    "optionOne": "Jidanbō",
+    "optionTwo": "Ganju"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which captain cut Jidanbō's arm when the gate keeper opened the gate?",
+    "answer": 1,
+    "optionOne": "Byakuya Kuchiki",
+    "optionTwo": "Gin Ichimaru"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of the fireworks expert who helps Ichigo and his friends enter the Soul Society?",
+    "answer": 0,
+    "optionOne": "Kukaku",
+    "optionTwo": "Ganju"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of the pink-haired girl who rides on Kenpachi's back?",
+    "answer": 1,
+    "optionOne": "Momo",
+    "optionTwo": "Yachiru"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is the first person that Ichigo fights once inside the walls of the Soul Society?",
+    "answer": 0,
+    "optionOne": "Ikkaku Madarame",
+    "optionTwo": "Kenpachi Zaraki"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Where was Chad born?",
+    "answer": 1,
+    "optionOne": "Mexico",
+    "optionTwo": "Okinawa"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of Byakuya's zanpakuto?",
+    "answer": 0,
+    "optionOne": "Senbonzakura",
+    "optionTwo": "Kyoka Suigetsu"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What is the name of Uryu's father?",
+    "answer": 1,
+    "optionOne": "Ryoka",
+    "optionTwo": "Ryuken"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What was meant to be the method of execution for Rukia?",
+    "answer": 0,
+    "optionOne": "Sōkyoku",
+    "optionTwo": "Hōgyoku"
+  },
+  {
+    "anime": "Bleach",
+    "question": "What was inside of Rukia that Aizen wanted?",
+    "answer": 1,
+    "optionOne": "Sōkyoku",
+    "optionTwo": "Hōgyoku"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Of which squad is Ichigo's father the former captain?",
+    "answer": 0,
+    "optionOne": "10th",
+    "optionTwo": "13th"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who is the first Visored that introduced himself to Ichigo?",
+    "answer": 1,
+    "optionOne": "Aikawa",
+    "optionTwo": "Hirako"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who cut off Yammy's arm?",
+    "answer": 0,
+    "optionOne": "Ichigo",
+    "optionTwo": "Urahara"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Who killed Di Roy?",
+    "answer": 1,
+    "optionOne": "Ichigo",
+    "optionTwo": "Rukia"
+  },
+  {
+    "anime": "Bleach",
+    "question": "When Grimmjow leads 5 arrancar to the world of the living, who stops his fight with Ichigo?",
+    "answer": 0,
+    "optionOne": "Kaname Tōsen",
+    "optionTwo": "Ulquiorra Cifer"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Whose sister falls in love with Ikkaku because she likes that Ikkaku is bald?",
+    "answer": 1,
+    "optionOne": "Mizuiro's",
+    "optionTwo": "Keigo's"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which of the Visoreds first got Ichigo to show his inner hollow?",
+    "answer": 0,
+    "optionOne": "Hiyori",
+    "optionTwo": "Hirako"
+  },
+  {
+    "anime": "Bleach",
+    "question": "At the start of the series, who is the leader of the Shiba clan?",
+    "answer": 1,
+    "optionOne": "Ganju Shiba",
+    "optionTwo": "Kūkaku Shiba"
+  },
+  {
+    "anime": "Bleach",
+    "question": "Which of Orihime's spirits does she use for attacking?",
+    "answer": 0,
+    "optionOne": "Tsubaki",
+    "optionTwo": "Shun'ō"
+  }
+]
