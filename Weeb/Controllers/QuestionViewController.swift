@@ -32,7 +32,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
     let questionNumberLabel: UILabel = {
         let label = UILabel()
         //label.font = labelFont
-        label.textAlignment = .center
+        label.textAlignment = .right
         label.textColor = whiteColor
         return label
     }()
@@ -88,6 +88,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         label.text = "\(questionList[questionIndex].answer)"
         label.font = appFont
         label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.textAlignment = .center
         label.textColor = .white
         return label
@@ -182,10 +183,10 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         backButton.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: nil, right: nil, paddingTop: 5, paddingLeft: 5, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
         
         view.addSubview(questionNumberLabel)
-        questionNumberLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: nil, bottom: nil, right: view.rightAnchor, paddingTop: 5, paddingLeft: 0, paddingBottom: 0, paddingRight: 5, width: 0, height: 0)
+        questionNumberLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: nil, bottom: nil, right: view.rightAnchor, paddingTop: 5, paddingLeft: 0, paddingBottom: 0, paddingRight: 15, width: 100, height: 40)
         
         view.addSubview(questionLabel)
-        questionLabel.anchor(top: backButton.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 0)
+        questionLabel.anchor(top: backButton.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 100)
         
         setupQuestionStackView()
     }
@@ -230,7 +231,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         }
         
         correctAnswerView.addSubview(correctAnswerTopLabel)
-        correctAnswerTopLabel.anchor(top: correctAnswerView.topAnchor, left: correctAnswerView.leftAnchor, bottom: nil, right: correctAnswerView.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 0)
+        correctAnswerTopLabel.anchor(top: correctAnswerView.topAnchor, left: correctAnswerView.leftAnchor, bottom: nil, right: correctAnswerView.rightAnchor, paddingTop: 40, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 100)
         
         correctAnswerView.addSubview(correctAnswerLabel)
         correctAnswerLabel.anchor(top: nil, left: nil, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
@@ -249,7 +250,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         exitConfirmationView.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor, paddingTop: 10, paddingLeft: 10, paddingBottom: -10, paddingRight: 10, width: 0, height: 0)
 
         exitConfirmationView.addSubview(exitConfirmationLabel)
-        exitConfirmationLabel.anchor(top: exitConfirmationView.topAnchor, left: exitConfirmationView.leftAnchor, bottom: nil, right: exitConfirmationView.rightAnchor, paddingTop: 20, paddingLeft: 10, paddingBottom: 0, paddingRight: 20, width: 0, height: 0)
+        exitConfirmationLabel.anchor(top: exitConfirmationView.topAnchor, left: exitConfirmationView.leftAnchor, bottom: nil, right: exitConfirmationView.rightAnchor, paddingTop: 40, paddingLeft: 10, paddingBottom: 0, paddingRight: 20, width: 0, height: 200)
         
         setupExitStackView()
         

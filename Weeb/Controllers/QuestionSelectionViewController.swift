@@ -84,7 +84,7 @@ class QuestionSelectionViewController: UIViewController, GADBannerViewDelegate {
         backButton.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: nil, right: nil, paddingTop: 5, paddingLeft: 5, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
         
         view.addSubview(instructionLabel)
-        instructionLabel.anchor(top: backButton.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 0)
+        instructionLabel.anchor(top: backButton.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 100)
         
         setupStackView()
     }
@@ -95,13 +95,12 @@ class QuestionSelectionViewController: UIViewController, GADBannerViewDelegate {
         stackView = UIStackView(arrangedSubviews: countQuestions())
         stackView.distribution = .fillEqually
         stackView.axis = .vertical
-        //stackView.alignment = .center
         stackView.spacing = 10
         let buttonCount = buttonsArray.count
         
         view.addSubview(stackView)
-        stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         stackView.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: CGFloat(buttonCount) * cellHeight)
+        stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
     
     // MARK: - Setup Banner

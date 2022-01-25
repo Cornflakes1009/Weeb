@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66EEE9D12C823425E665CEDB /* Pods_Weeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE6BA3E708269B6A209F6EC /* Pods_Weeb.framework */; };
+		D933948F2741F6AE0024B6FF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933948E2741F6AE0024B6FF /* TestViewController.swift */; };
 		D9366C8D26E9703100D83E39 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9366C8C26E9703100D83E39 /* RootViewController.swift */; };
 		D9B030B0272F480F006231EF /* ConfigureVaryingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B030AF272F480F006231EF /* ConfigureVaryingViews.swift */; };
 		D9B030F4273B7BB7006231EF /* RobotoMono-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9B030F3273B7BB6006231EF /* RobotoMono-VariableFont_wght.ttf */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		1AB2CC62499EB1F5400AC2B6 /* Pods-Weeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weeb.debug.xcconfig"; path = "Target Support Files/Pods-Weeb/Pods-Weeb.debug.xcconfig"; sourceTree = "<group>"; };
+		D933948E2741F6AE0024B6FF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		D9366C8C26E9703100D83E39 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		D9B030AF272F480F006231EF /* ConfigureVaryingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureVaryingViews.swift; sourceTree = "<group>"; };
 		D9B030F3273B7BB6006231EF /* RobotoMono-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				D9366C8C26E9703100D83E39 /* RootViewController.swift */,
 				D9B16C5F2672B35A00E81748 /* ScoresViewController.swift */,
 				D9B16C622672B36600E81748 /* SupportViewController.swift */,
+				D933948E2741F6AE0024B6FF /* TestViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				D9B16C542672B33200E81748 /* QuestionSelectionViewController.swift in Sources */,
 				D9B16C4E266ECCF600E81748 /* AppButton.swift in Sources */,
 				D9B16C4B266DEFDE00E81748 /* CategoryCell.swift in Sources */,
+				D933948F2741F6AE0024B6FF /* TestViewController.swift in Sources */,
 				D9B16C572672B33D00E81748 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -538,6 +543,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

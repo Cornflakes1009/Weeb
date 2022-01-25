@@ -74,6 +74,7 @@ class RootViewController: UIViewController {
         setupViews()
         
         playLabel.startBlink()
+        NotificationCenter.default.addObserver(self, selector: #selector(willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -85,6 +86,11 @@ class RootViewController: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         playLabel.stopBlink()
+    }
+    
+    @objc func willEnterForeground() {
+        playLabel.stopBlink()
+        playLabel.startBlink()
     }
 
     // MARK: - Setting Up Views
