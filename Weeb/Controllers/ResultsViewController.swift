@@ -36,6 +36,12 @@ class ResultsViewController: UIViewController {
         return label
     }()
     
+    let shareButton: AppButton = {
+        let button = AppButton(title: "Share")
+        button.addTarget(self, action: #selector(shareTapped), for: .touchUpInside)
+        return button
+    }()
+    
     let backToMenuButton: QuestionButton = {
         let button = QuestionButton(title: "Back to Menu")
         button.addTarget(self, action: #selector(backtoMenuTapped), for: .touchUpInside)
@@ -45,6 +51,8 @@ class ResultsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
+        
+        completedGame = true
     }
     
     // MARK: - Setting Up Views
@@ -59,12 +67,20 @@ class ResultsViewController: UIViewController {
         titleLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 20, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 200)
         
         view.addSubview(scoreLabel)
-        //scoreLabel.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
-        //scoreLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         scoreLabel.anchor(top: titleLabel.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 100, paddingLeft: 20, paddingBottom: 0, paddingRight: 20, width: 0, height: 0)
+        
+        view.addSubview(shareButton)
+        shareButton.anchor(top: nil, left: nil, bottom: backToMenuButton.topAnchor, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: -20, paddingRight: 0, width: screenWidth * 0.3, height: cellHeight / 2)
+        shareButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
     // MARK: - Button Actions
+    @objc func shareTapped() {
+        let items = ["Look at my score! \(correctlyAnswered)/\(questionList.count) \n\n\(weebLink)"]
+        let ac = UIActivityViewController(activityItems: items as [Any], applicationActivities: nil)
+        present(ac, animated: true)
+    }
+    
     @objc func backtoMenuTapped() {
         resetGame()
         dismiss(animated: true, completion: nil)

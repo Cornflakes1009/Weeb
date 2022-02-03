@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import StoreKit
 
 class RootViewController: UIViewController {
     
@@ -47,6 +48,15 @@ class RootViewController: UIViewController {
         return label
     }()
     
+    let moreButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("More Apps", for: .normal)
+        button.setTitleColor(whiteColor, for: .normal)
+        button.addTarget(self, action: #selector(moreTapped), for: .touchUpInside)
+        return button
+    }()
+    
+    // MARK: - Bottom Stack View
     let supportButton: AppButton = {
         let button = AppButton(title: "Support")
         button.addTarget(self, action: #selector(supportTapped), for: .touchUpInside)
@@ -70,6 +80,7 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
         
         screenHeight = UIScreen.main.bounds.size.height
+        screenWidth = UIScreen.main.bounds.size.width
         varyForScreenSizes(screenHeight: screenHeight)
         setupViews()
         
@@ -82,6 +93,10 @@ class RootViewController: UIViewController {
         // this is to handle dismissing any view controller back to this one
         resetGame()
         playLabel.startBlink()
+        
+        if completedGame && numOfGamesPlayed >= 3 {
+            SKStoreReviewController.requestReview()
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -116,6 +131,10 @@ class RootViewController: UIViewController {
         playLabel.font = appFont
         
         setupBottomStackView()
+        
+        view.addSubview(moreButton)
+        moreButton.anchor(top: nil, left: nil, bottom: bottomStackView.topAnchor, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: -20, paddingRight: 0, width: 300, height: 25)
+        moreButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
     // MARK:- Setting Up the Bottom StackView
@@ -130,6 +149,7 @@ class RootViewController: UIViewController {
         view.addSubview(bottomStackView)
         bottomStackView.anchor(top: nil, left: view.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 5, paddingBottom: -10, paddingRight: 5, width: 0, height: 25)
         
+        moreButton.titleLabel?.font  = secondaryButtonFont
         supportButton.titleLabel?.font  = secondaryButtonFont
         aboutButton.titleLabel?.font    = secondaryButtonFont
         scoresButton.titleLabel?.font   = secondaryButtonFont
@@ -139,6 +159,12 @@ class RootViewController: UIViewController {
     @objc func playTapped() {
         let vc = AnimeListViewController()
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func moreTapped() {
+        if let url = URL(string: appStoreLink) {
+            UIApplication.shared.open(url)
+        }
     }
     
     @objc func supportTapped() {

@@ -44,6 +44,8 @@
 		D9B16C632672B36600E81748 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C622672B36600E81748 /* SupportViewController.swift */; };
 		D9B16C662672B9B600E81748 /* ConvertQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C652672B9B600E81748 /* ConvertQuestions.swift */; };
 		D9B16C69267596BD00E81748 /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16C68267596BD00E81748 /* QuestionButton.swift */; };
+		D9F02CEF27A600DF0038828D /* Fireworks.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F02CEE27A600DF0038828D /* Fireworks.json */; };
+		D9F02CF127A6082C0038828D /* Tokyo Ghoul.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F02CF027A6082C0038828D /* Tokyo Ghoul.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		D9B16C622672B36600E81748 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
 		D9B16C652672B9B600E81748 /* ConvertQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertQuestions.swift; sourceTree = "<group>"; };
 		D9B16C68267596BD00E81748 /* QuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
+		D9F02CEE27A600DF0038828D /* Fireworks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fireworks.json; sourceTree = "<group>"; };
+		D9F02CF027A6082C0038828D /* Tokyo Ghoul.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tokyo Ghoul.json"; sourceTree = "<group>"; };
 		DAE6BA3E708269B6A209F6EC /* Pods_Weeb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AEE5B98907F19E76069DA0 /* Pods-Weeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weeb.release.xcconfig"; path = "Target Support Files/Pods-Weeb/Pods-Weeb.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +166,8 @@
 		D9B16C6B2675C7E200E81748 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				D9F02CF027A6082C0038828D /* Tokyo Ghoul.json */,
+				D9F02CEE27A600DF0038828D /* Fireworks.json */,
 				D9B030FB273F9BB7006231EF /* Akame ga Kill!.json */,
 				D9B030FF273F9BB7006231EF /* Beastars.json */,
 				D9B0310F273F9C10006231EF /* Bleach.json */,
@@ -293,6 +299,7 @@
 				D9B0310D273F9BB7006231EF /* The Way of the Househusband.json in Resources */,
 				D9B03106273F9BB7006231EF /* Maid Sama!.json in Resources */,
 				D9B0310C273F9BB7006231EF /* Beastars.json in Resources */,
+				D9F02CF127A6082C0038828D /* Tokyo Ghoul.json in Resources */,
 				D9B0310B273F9BB7006231EF /* Erased.json in Resources */,
 				D9B03108273F9BB7006231EF /* Akame ga Kill!.json in Resources */,
 				D9B0310E273F9BB7006231EF /* Your Name.json in Resources */,
@@ -305,6 +312,7 @@
 				D9B03109273F9BB7006231EF /* Vampire Knight.json in Resources */,
 				D9B16C30266CC71D00E81748 /* Assets.xcassets in Resources */,
 				D9B03105273F9BB7006231EF /* One Punch Man.json in Resources */,
+				D9F02CEF27A600DF0038828D /* Fireworks.json in Resources */,
 				D9B03103273F9BB7006231EF /* Rascal Does Not Dream of Bunny Girl Senpai.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -543,7 +551,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.harolddavidson.Weeb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

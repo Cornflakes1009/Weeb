@@ -1,0 +1,79 @@
+[
+  {
+    "anime": "Fireworks",
+    "question": "What is the name of the shrine where the fireworks are being held?",
+    "answer": 0,
+    "optionOne": "Moshimo",
+    "optionTwo": "Hirose"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "What is the name of the town where the movie takes place?",
+    "answer": 1,
+    "optionOne": "Hirose",
+    "optionTwo": "Moshimo"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "When lounging by the pool, what lands on Nazuna's face?",
+    "answer": 0,
+    "optionOne": "Dragonfly",
+    "optionTwo": "Butterfly"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "Between Yusuke and Noromichi, who wins the 50 meter race the first time?",
+    "answer": 1,
+    "optionOne": "Norimichi",
+    "optionTwo": "Yusuke"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "Whom did Nazuna want to win the race?",
+    "answer": 0,
+    "optionOne": "Norimichi",
+    "optionTwo": "Yusuke"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "Whom did Nazuna first ask to see the fireworks with her?",
+    "answer": 1,
+    "optionOne": "Norimichi",
+    "optionTwo": "Yusuke"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "What time was everyone supposed to meetup to watch the fireworks?",
+    "answer": 0,
+    "optionOne": "Five",
+    "optionTwo": "Six"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "When Noromichi first climbs the lighthouse, were the fireworks round or flat?",
+    "answer": 1,
+    "optionOne": "Round",
+    "optionTwo": "Flat"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "How many times has Nazuna's mother been married before Nazuna tries running away?",
+    "answer": 0,
+    "optionOne": "Two times",
+    "optionTwo": "Three times"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "Between Yusuke and Noromichi, who wins the 50 meter race the second time?",
+    "answer": 1,
+    "optionOne": "Yusuke",
+    "optionTwo": "Norimichi"
+  },
+  {
+    "anime": "Fireworks",
+    "question": "The second time Noromichi climbs the lighthouse, were the fireworks round or flat?",
+    "answer": 0,
+    "optionOne": "Round",
+    "optionTwo": "Flat"
+  }
+]

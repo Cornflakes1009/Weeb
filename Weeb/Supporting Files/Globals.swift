@@ -15,7 +15,7 @@ let appID                   = "ca-app-pub-6504174477930496~8704600611"
 // MARK: - Images
 let backgroundImage = UIImage(named: "wallpaper")!
 let popupBackgroundImage = UIImage(named: "crissXcross")
-let stardustImage = UIImage(named: "stardust")
+
 
 // MARK: - Colors
 let whiteColor      = UIColor.rgb(red: 255, green: 255, blue: 255, alpha: 1)
@@ -27,6 +27,7 @@ let lightPinkColor  = UIColor.rgb(red: 255, green: 216, blue: 230, alpha: 1)
 
 // MARK: - Sizes
 var screenHeight: CGFloat       = 0
+var screenWidth: CGFloat        = 0
 var cellHeight: CGFloat         = 0
 var aboutImageHeight: CGFloat   = 0
 var inputHeight: CGFloat        = 0
@@ -42,9 +43,12 @@ var finalScoreFont      = UIFont(name: "Optima Bold", size: 60)
 var italicFont          = UIFont(name: "Optima-Italic", size: 13.5)
 
 // MARK: - App Variables
-let categories = ["Naruto", "One Punch Man", "Maid Sama!", "Vampire Knight", "Death Note", "Toradora!", "Bleach", "Your Name", "Akame ga Kill!", "Beastars", "Rascal Does Not Dream of Bunny Girl Senpai", "Erased", "Code Geass", "The Way of the Househusband"]
+let categories = ["Naruto", "One Punch Man", "Maid Sama!","Tokyo Ghoul", "Vampire Knight", "Death Note", "Toradora!", "Bleach", "Your Name", "Akame ga Kill!", "Fireworks", "Beastars", "Rascal Does Not Dream of Bunny Girl Senpai", "Erased", "Code Geass", "The Way of the Househusband"]
 var correctlyAnswered       = 0
 let popUpViewAlpha          =   CGFloat(1)
+var completedGame           =   false
+let weebLink                =   "https://https://apps.apple.com/us/app/weeb/id1570239237"
+let appStoreLink            =   "https://apps.apple.com/ph/developer/harold-davidson/id1499282471"
 
 // MARK: - Reset Game
 func resetGame() {
@@ -53,13 +57,14 @@ func resetGame() {
     correctlyAnswered   = 0
 }
 
+// MARK: - Button Configurations
 let backButtonImageConfig = UIImage.SymbolConfiguration(pointSize: 25, weight: .light, scale: .large)
 let backButtonImage = UIImage(systemName: "chevron.left.square", withConfiguration: backButtonImageConfig)
 
 let playButtonImageConfig = UIImage.SymbolConfiguration(pointSize: 100, weight: .light, scale: .large)
 let playButtonImage = UIImage(systemName: "play.circle", withConfiguration: playButtonImageConfig)
 
-// MARK:- Persistent Storage
+// MARK: - Persistent Storage
 let defaults                =   UserDefaults.standard
 var totalNumberOfQuestions  =   defaults.integer(forKey: "totalNumberOfQuestions")
 var totalNumberOfCorrect    =   defaults.integer(forKey: "totalNumberOfCorrect")
