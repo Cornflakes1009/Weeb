@@ -36,13 +36,13 @@ class ResultsViewController: UIViewController {
         return label
     }()
     
-    let shareButton: AppButton = {
+    lazy var shareButton: AppButton = {
         let button = AppButton(title: "Share")
         button.addTarget(self, action: #selector(shareTapped), for: .touchUpInside)
         return button
     }()
     
-    let backToMenuButton: QuestionButton = {
+    lazy var backToMenuButton: QuestionButton = {
         let button = QuestionButton(title: "Back to Menu")
         button.addTarget(self, action: #selector(backtoMenuTapped), for: .touchUpInside)
         return button

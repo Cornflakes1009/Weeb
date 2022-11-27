@@ -21,7 +21,7 @@ class QuestionSelectionViewController: UIViewController, GADBannerViewDelegate {
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -43,25 +43,25 @@ class QuestionSelectionViewController: UIViewController, GADBannerViewDelegate {
     
     var bannerView: GADBannerView!
     
-    let tenQuestionButton: QuestionButton = {
+    lazy var tenQuestionButton: QuestionButton = {
         let button = QuestionButton(title: "10 QUESTIONS")
         button.addTarget(self, action: #selector(tenQuestionsTapped), for: .touchUpInside)
         return button
     }()
     
-    let twentyFiveQuestionButton: QuestionButton = {
+    lazy var twentyFiveQuestionButton: QuestionButton = {
         let button = QuestionButton(title: "25 QUESTIONS")
         button.addTarget(self, action: #selector(twentyFiveQuestionsTapped), for: .touchUpInside)
         return button
     }()
     
-    let fiftyQuestionButton: QuestionButton = {
+    lazy var fiftyQuestionButton: QuestionButton = {
         let button = QuestionButton(title: "50 QUESTIONS")
         button.addTarget(self, action: #selector(fiftyQuestionsTapped), for: .touchUpInside)
         return button
     }()
     
-    let allQuestionButton: QuestionButton = {
+    lazy var allQuestionButton: QuestionButton = {
         let button = QuestionButton(title: "All QUESTIONS (\(questionList.count))")
         button.addTarget(self, action: #selector(allQuestionsTapped), for: .touchUpInside)
         return button

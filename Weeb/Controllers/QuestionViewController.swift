@@ -20,7 +20,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -50,13 +50,13 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         return label
     }()
     
-    let optionOneButton: AppButton = {
+    lazy var optionOneButton: AppButton = {
         let button = AppButton(title: "\(questionList[questionIndex].optionOne)")
         button.addTarget(self, action: #selector(answerTapped(_:)), for: .touchUpInside)
         return button
     }()
     
-    let optionTwoButton: AppButton = {
+    lazy var optionTwoButton: AppButton = {
         let button = AppButton(title: "\(questionList[questionIndex].optionTwo)")
         button.addTarget(self, action: #selector(answerTapped(_:)), for: .touchUpInside)
         return button
@@ -94,7 +94,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         return label
     }()
     
-    let nextQuestionButton: AppButton = {
+    lazy var nextQuestionButton: AppButton = {
         let button = AppButton(title: "Next Question")
         button.addTarget(self, action: #selector(nextQuestionTapped), for: .touchUpInside)
         button.titleLabel?.font = buttonFont
@@ -122,7 +122,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         return label
     }()
     
-    let exitGameCancel: AppButton = {
+    lazy var exitGameCancel: AppButton = {
         let button = AppButton(title: "Cancel")
         button.setTitleColor(blackColor, for: .normal)
         button.titleLabel?.font = buttonFont
@@ -134,7 +134,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
         return button
     }()
     
-    let exitGameConfirm: AppButton = {
+    lazy var exitGameConfirm: AppButton = {
         let button = AppButton(title: "Exit")
         button.setTitleColor(blackColor, for: .normal)
         button.titleLabel?.font = buttonFont

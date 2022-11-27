@@ -31,7 +31,7 @@ class RootViewController: UIViewController {
         return label
     }()
     
-    let playButton: UIButton = {
+    lazy var playButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -48,7 +48,7 @@ class RootViewController: UIViewController {
         return label
     }()
     
-    let moreButton: UIButton = {
+    lazy var moreButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("More Apps", for: .normal)
         button.setTitleColor(whiteColor, for: .normal)
@@ -57,19 +57,19 @@ class RootViewController: UIViewController {
     }()
     
     // MARK: - Bottom Stack View
-    let supportButton: AppButton = {
+    lazy var supportButton: AppButton = {
         let button = AppButton(title: "Support")
         button.addTarget(self, action: #selector(supportTapped), for: .touchUpInside)
         return button
     }()
     
-    let scoresButton: AppButton = {
+    lazy var scoresButton: AppButton = {
         let button = AppButton(title: "Scores")
         button.addTarget(self, action: #selector(scoresTapped), for: .touchUpInside)
         return button
     }()
     
-    let aboutButton: AppButton = {
+    lazy var aboutButton: AppButton = {
         let button = AppButton(title: "About")
         button.addTarget(self, action: #selector(aboutTapped), for: .touchUpInside)
         return button

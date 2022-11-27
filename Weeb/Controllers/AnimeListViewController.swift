@@ -17,7 +17,7 @@ class AnimeListViewController: UIViewController {
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -40,19 +40,19 @@ class AnimeListViewController: UIViewController {
         return label
     }()
     
-    let supportButton: AppButton = {
+    lazy var supportButton: AppButton = {
         let button = AppButton(title: "Support")
         button.addTarget(self, action: #selector(supportTapped), for: .touchUpInside)
         return button
     }()
     
-    let scoresButton: AppButton = {
+    lazy var scoresButton: AppButton = {
         let button = AppButton(title: "Scores")
         button.addTarget(self, action: #selector(scoresTapped), for: .touchUpInside)
         return button
     }()
     
-    let aboutButton: AppButton = {
+    lazy var aboutButton: AppButton = {
         let button = AppButton(title: "About")
         button.addTarget(self, action: #selector(aboutTapped), for: .touchUpInside)
         return button

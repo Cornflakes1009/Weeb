@@ -17,7 +17,7 @@ class AboutViewController: UIViewController {
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor

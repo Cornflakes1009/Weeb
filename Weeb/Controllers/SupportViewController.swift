@@ -18,7 +18,7 @@ class SupportViewController: UIViewController, MFMailComposeViewControllerDelega
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -51,7 +51,7 @@ class SupportViewController: UIViewController, MFMailComposeViewControllerDelega
         return tv
     }()
     
-    let emailButton: QuestionButton = {
+    lazy var emailButton: QuestionButton = {
         let button = QuestionButton(title: "Email")
         button.titleLabel?.font = buttonFont
         button.addTarget(self, action: #selector(emailTapped), for: .touchUpInside)

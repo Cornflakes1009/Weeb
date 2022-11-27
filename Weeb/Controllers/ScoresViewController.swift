@@ -19,7 +19,7 @@ class ScoresViewController: UIViewController {
         return image
     }()
     
-    let backButton: UIButton = {
+    lazy var backButton: UIButton = {
         let button = UIButton(type: .system)
         button.isEnabled = true
         button.tintColor = whiteColor
@@ -69,7 +69,7 @@ class ScoresViewController: UIViewController {
         return label
     }()
     
-    let resetScoresButton: QuestionButton = {
+    lazy var resetScoresButton: QuestionButton = {
         let button = QuestionButton(title: "Reset All Scores")
         button.addTarget(self, action: #selector(backtoMenuTapped), for: .touchUpInside)
         return button
@@ -124,6 +124,6 @@ class ScoresViewController: UIViewController {
     @objc func backtoMenuTapped() {
         resetGame()
         dismiss(animated: true, completion: nil)
-        self.navigationController?.popToRootViewController(animated: true)
+        
     }
 }
